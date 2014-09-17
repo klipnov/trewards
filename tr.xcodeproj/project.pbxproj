@@ -168,6 +168,7 @@
 				TargetAttributes = {
 					7984BF5419C9714B00A4CFA4 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = JRFPTDNQR5;
 					};
 					7984BF6D19C9714B00A4CFA4 = {
 						CreatedOnToolsVersion = 6.0;
@@ -345,9 +346,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = tr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -355,9 +358,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = tr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -414,6 +419,7 @@
 				7984BF7A19C9714B00A4CFA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7984BF7B19C9714B00A4CFA4 /* Build configuration list for PBXNativeTarget "trTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +428,7 @@
 				7984BF7D19C9714B00A4CFA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
