@@ -12,6 +12,7 @@
 		5462600519C9C96800194B9A /* 02_fbImageMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5462600019C9C96800194B9A /* 02_fbImageMask@2x.png */; };
 		5462600619C9C96800194B9A /* 02_navBarTitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5462600119C9C96800194B9A /* 02_navBarTitle@2x.png */; };
 		5462600719C9C96800194B9A /* 02_rewardsAlert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5462600219C9C96800194B9A /* 02_rewardsAlert@2x.png */; };
+		5462600919C9D49E00194B9A /* 02_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5462600819C9D49E00194B9A /* 02_bg@2x.png */; };
 		54ED001619C995FA0095B5F1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ED001519C995FA0095B5F1 /* FacebookSDK.framework */; };
 		54ED001819C996520095B5F1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ED001719C996520095B5F1 /* Parse.framework */; };
 		54ED001D19C9C7A20095B5F1 /* 01_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54ED001B19C9C7A20095B5F1 /* 01_bg@2x.png */; };
@@ -41,6 +42,7 @@
 		5462600019C9C96800194B9A /* 02_fbImageMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_fbImageMask@2x.png"; sourceTree = "<group>"; };
 		5462600119C9C96800194B9A /* 02_navBarTitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_navBarTitle@2x.png"; sourceTree = "<group>"; };
 		5462600219C9C96800194B9A /* 02_rewardsAlert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_rewardsAlert@2x.png"; sourceTree = "<group>"; };
+		5462600819C9D49E00194B9A /* 02_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_bg@2x.png"; sourceTree = "<group>"; };
 		54ED001519C995FA0095B5F1 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		54ED001719C996520095B5F1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		54ED001B19C9C7A20095B5F1 /* 01_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_bg@2x.png"; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				5462600019C9C96800194B9A /* 02_fbImageMask@2x.png */,
 				5462600119C9C96800194B9A /* 02_navBarTitle@2x.png */,
 				5462600219C9C96800194B9A /* 02_rewardsAlert@2x.png */,
+				5462600819C9D49E00194B9A /* 02_bg@2x.png */,
 			);
 			name = ProfilePage;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				7984BF6919C9714B00A4CFA4 /* LaunchScreen.xib in Resources */,
 				5462600419C9C96800194B9A /* 02_currentStationIcon@2x.png in Resources */,
 				54ED001D19C9C7A20095B5F1 /* 01_bg@2x.png in Resources */,
+				5462600919C9D49E00194B9A /* 02_bg@2x.png in Resources */,
 				5462600619C9C96800194B9A /* 02_navBarTitle@2x.png in Resources */,
 				7984BF6619C9714B00A4CFA4 /* Images.xcassets in Resources */,
 			);
