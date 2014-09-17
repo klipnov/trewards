@@ -7,8 +7,10 @@
 //
 
 #import "profileViewController.h"
+#import <FacebookSDK/FacebookSDK.h>
 
 @interface profileViewController ()
+
 
 @end
 
@@ -27,6 +29,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [FBRequestConnection startWithGraphPath:@"me" parameters:[NSMutableDictionary  dictionaryWithObjectsAndKeys:@"name,picture",@"fields", nil] HTTPMethod:@"GET" completionHandler:^(FBRequestConnection *connection, id result, NSError *error) {
+        NSLog(@"%@",result);
+    }];
 }
 
 - (void)didReceiveMemoryWarning
