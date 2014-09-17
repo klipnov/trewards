@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
@@ -34,16 +33,17 @@
                     </view>
                     <connections>
                         <outlet property="loginBtn" destination="LxE-3r-sKI" id="E55-r0-TP3"/>
+                        <segue destination="kTF-Is-aAz" kind="modal" identifier="gotoProfile" id="Vsm-lO-ONb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="241" y="267"/>
+            <point key="canvasLocation" x="210" y="276"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="h7x-Ow-YKl">
             <objects>
-                <viewController id="kTF-Is-aAz" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="profile" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kTF-Is-aAz" customClass="profileViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kzA-Ez-C2y"/>
                         <viewControllerLayoutGuide type="bottom" id="GU0-eJ-adP"/>

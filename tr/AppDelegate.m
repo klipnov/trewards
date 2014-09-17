@@ -47,6 +47,7 @@
             // Connection is Open
             //lblStatus.text = @"FBSessionStateOpen";
             NSLog(@"FBSessionStateOpen");
+            [self.window.rootViewController performSegueWithIdentifier:@"gotoProfile" sender:self];
         }
             break;
         case FBSessionStateClosed:
@@ -63,6 +64,17 @@
             break;
     }
 }
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation
+{
+    NSLog(@"calledafterlogin");
+    return [FBAppCall handleOpenURL:url sourceApplication:sourceApplication];
+}
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
