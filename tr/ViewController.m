@@ -11,6 +11,7 @@
 #import <FacebookSDK/FacebookSDK.h>
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *loginBtn;
 
 @end
 
