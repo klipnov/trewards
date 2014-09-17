@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import <FacebookSDK/FacebookSDK.h>
 
 @interface AppDelegate ()
 
@@ -37,6 +36,34 @@
     
     return YES;
 }
+
+- (void)sessionStateChanged:(FBSession *)session
+                      state:(FBSessionState) state
+                      error:(NSError *)error
+{
+    switch (state) {
+        case FBSessionStateOpen:
+        {
+            // Connection is Open
+            //lblStatus.text = @"FBSessionStateOpen";
+            NSLog(@"FBSessionStateOpen");
+        }
+            break;
+        case FBSessionStateClosed:
+        case FBSessionStateClosedLoginFailed:
+        {
+            [FBSession.activeSession closeAndClearTokenInformation];
+            
+            // Connection is Closed / Login Failed
+            //lblStatus.text = @"FBSessionStateClosed";
+            NSLog(@"FBSessionStateClosed");
+        }
+            break;
+        default:
+            break;
+    }
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
