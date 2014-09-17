@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5462600319C9C96800194B9A /* 02_buttonBegin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54625FFE19C9C96800194B9A /* 02_buttonBegin@2x.png */; };
+		5462600419C9C96800194B9A /* 02_currentStationIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54625FFF19C9C96800194B9A /* 02_currentStationIcon@2x.png */; };
+		5462600519C9C96800194B9A /* 02_fbImageMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5462600019C9C96800194B9A /* 02_fbImageMask@2x.png */; };
+		5462600619C9C96800194B9A /* 02_navBarTitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5462600119C9C96800194B9A /* 02_navBarTitle@2x.png */; };
+		5462600719C9C96800194B9A /* 02_rewardsAlert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5462600219C9C96800194B9A /* 02_rewardsAlert@2x.png */; };
 		54ED001619C995FA0095B5F1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ED001519C995FA0095B5F1 /* FacebookSDK.framework */; };
 		54ED001819C996520095B5F1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ED001719C996520095B5F1 /* Parse.framework */; };
+		54ED001D19C9C7A20095B5F1 /* 01_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54ED001B19C9C7A20095B5F1 /* 01_bg@2x.png */; };
+		54ED001E19C9C7A20095B5F1 /* 01_loginButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54ED001C19C9C7A20095B5F1 /* 01_loginButton@2x.png */; };
 		7984BF5B19C9714B00A4CFA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7984BF5A19C9714B00A4CFA4 /* main.m */; };
 		7984BF5E19C9714B00A4CFA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7984BF5D19C9714B00A4CFA4 /* AppDelegate.m */; };
 		7984BF6119C9714B00A4CFA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7984BF6019C9714B00A4CFA4 /* ViewController.m */; };
@@ -29,8 +36,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54625FFE19C9C96800194B9A /* 02_buttonBegin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_buttonBegin@2x.png"; sourceTree = "<group>"; };
+		54625FFF19C9C96800194B9A /* 02_currentStationIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_currentStationIcon@2x.png"; sourceTree = "<group>"; };
+		5462600019C9C96800194B9A /* 02_fbImageMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_fbImageMask@2x.png"; sourceTree = "<group>"; };
+		5462600119C9C96800194B9A /* 02_navBarTitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_navBarTitle@2x.png"; sourceTree = "<group>"; };
+		5462600219C9C96800194B9A /* 02_rewardsAlert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_rewardsAlert@2x.png"; sourceTree = "<group>"; };
 		54ED001519C995FA0095B5F1 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		54ED001719C996520095B5F1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		54ED001B19C9C7A20095B5F1 /* 01_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_bg@2x.png"; sourceTree = "<group>"; };
+		54ED001C19C9C7A20095B5F1 /* 01_loginButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_loginButton@2x.png"; sourceTree = "<group>"; };
 		7984BF5519C9714B00A4CFA4 /* tr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7984BF5919C9714B00A4CFA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7984BF5A19C9714B00A4CFA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,6 +80,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54625FFD19C9C92400194B9A /* ProfilePage */ = {
+			isa = PBXGroup;
+			children = (
+				54625FFE19C9C96800194B9A /* 02_buttonBegin@2x.png */,
+				54625FFF19C9C96800194B9A /* 02_currentStationIcon@2x.png */,
+				5462600019C9C96800194B9A /* 02_fbImageMask@2x.png */,
+				5462600119C9C96800194B9A /* 02_navBarTitle@2x.png */,
+				5462600219C9C96800194B9A /* 02_rewardsAlert@2x.png */,
+			);
+			name = ProfilePage;
+			sourceTree = "<group>";
+		};
 		54ED001419C995D30095B5F1 /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +100,25 @@
 			);
 			name = frameworks;
 			path = tr;
+			sourceTree = "<group>";
+		};
+		54ED001919C9C7580095B5F1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				54625FFD19C9C92400194B9A /* ProfilePage */,
+				54ED001A19C9C7800095B5F1 /* LoginPage */,
+			);
+			name = images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		54ED001A19C9C7800095B5F1 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				54ED001B19C9C7A20095B5F1 /* 01_bg@2x.png */,
+				54ED001C19C9C7A20095B5F1 /* 01_loginButton@2x.png */,
+			);
+			name = LoginPage;
 			sourceTree = "<group>";
 		};
 		7984BF4C19C9714B00A4CFA4 = {
@@ -105,6 +150,7 @@
 				7984BF6219C9714B00A4CFA4 /* Main.storyboard */,
 				7984BF6519C9714B00A4CFA4 /* Images.xcassets */,
 				7984BF6719C9714B00A4CFA4 /* LaunchScreen.xib */,
+				54ED001919C9C7580095B5F1 /* images */,
 				7984BF5819C9714B00A4CFA4 /* Supporting Files */,
 			);
 			path = tr;
@@ -217,8 +263,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54ED001E19C9C7A20095B5F1 /* 01_loginButton@2x.png in Resources */,
 				7984BF6419C9714B00A4CFA4 /* Main.storyboard in Resources */,
+				5462600519C9C96800194B9A /* 02_fbImageMask@2x.png in Resources */,
+				5462600319C9C96800194B9A /* 02_buttonBegin@2x.png in Resources */,
+				5462600719C9C96800194B9A /* 02_rewardsAlert@2x.png in Resources */,
 				7984BF6919C9714B00A4CFA4 /* LaunchScreen.xib in Resources */,
+				5462600419C9C96800194B9A /* 02_currentStationIcon@2x.png in Resources */,
+				54ED001D19C9C7A20095B5F1 /* 01_bg@2x.png in Resources */,
+				5462600619C9C96800194B9A /* 02_navBarTitle@2x.png in Resources */,
 				7984BF6619C9714B00A4CFA4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
