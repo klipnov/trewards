@@ -299,6 +299,58 @@
             [_touchable removeFromSuperview];
         }
     
+    if ([_touchable10.layer.presentationLayer hitTest:touchLocation]) {
+        [_touchable10 removeFromSuperview];
+    }
+    
+    if ([_touchable2.layer.presentationLayer hitTest:touchLocation]) {
+        [_touchable2 removeFromSuperview];
+    }
+    
+    if ([_touchable3.layer.presentationLayer hitTest:touchLocation]) {
+        [_touchable3 removeFromSuperview];
+    }
+    
+    if ([_touchable4.layer.presentationLayer hitTest:touchLocation]) {
+        [_touchable4 removeFromSuperview];
+    }
+    
+    if ([_touchable5.layer.presentationLayer hitTest:touchLocation]) {
+        [_touchable5 removeFromSuperview];
+    }
+    
+    if ([_touchable6.layer.presentationLayer hitTest:touchLocation]) {
+        [_touchable6 removeFromSuperview];
+    }
+    
+    if ([_touchable7.layer.presentationLayer hitTest:touchLocation]) {
+        [_touchable7 removeFromSuperview];
+    }
+    
+    if ([_touchable8.layer.presentationLayer hitTest:touchLocation]) {
+        [_touchable8 removeFromSuperview];
+    }
+    
+    if ([_touchable9.layer.presentationLayer hitTest:touchLocation]) {
+        [_touchable9 removeFromSuperview];
+    }
+    
+    if ([_touchable11.layer.presentationLayer hitTest:touchLocation]) {
+        [_touchable11 removeFromSuperview];
+    }
+    
+    if ([_touchable12.layer.presentationLayer hitTest:touchLocation]) {
+        [_touchable12 removeFromSuperview];
+    }
+    
+    if ([_touchable13.layer.presentationLayer hitTest:touchLocation]) {
+        [_touchable13 removeFromSuperview];
+    }
+    
+    if ([_touchable14.layer.presentationLayer hitTest:touchLocation]) {
+        [_touchable14 removeFromSuperview];
+    }
+    
 }
 /*
 #pragma mark - Navigation
