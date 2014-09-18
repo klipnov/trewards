@@ -39,9 +39,11 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    [UIView animateWithDuration:30.0 animations:^{
+    [UIView animateWithDuration:20.0 animations:^{
         _cloudsImg.transform = CGAffineTransformMakeTranslation(-300, 0);
-    } completion:nil];
+    } completion:^(BOOL finished) {
+        [self performSegueWithIdentifier:@"stopGame" sender:self];
+    }];
     
     [self animateGround];
     
@@ -62,6 +64,8 @@
         _groundImg.transform = CGAffineTransformMakeTranslation(-568, 0);
         _groundImg2.transform = CGAffineTransformMakeTranslation(-568, 0);
     } completion:nil];
+    
+    
 }
 
 - (void)resetGround {

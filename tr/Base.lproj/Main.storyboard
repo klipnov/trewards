@@ -274,35 +274,50 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qiB-CM-cyE">
-                                <rect key="frame" x="260" y="286" width="38" height="21"/>
+                                <rect key="frame" x="239" y="286" width="38" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-CondensedMedium" family="Futura" pointSize="30"/>
                                 <color key="textColor" red="0.066666670143604279" green="0.19607844948768616" blue="0.37254902720451355" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZhH-c2-RQK">
-                                <rect key="frame" x="334" y="286" width="20" height="21"/>
+                                <rect key="frame" x="330" y="286" width="20" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-CondensedMedium" family="Futura" pointSize="20"/>
                                 <color key="textColor" red="0.066666670143604279" green="0.19607844948768616" blue="0.37254902720451355" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="d5B-Fp-WK6">
-                                <rect key="frame" x="392" y="286" width="26" height="21"/>
+                                <rect key="frame" x="403" y="286" width="26" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-CondensedMedium" family="Futura" pointSize="20"/>
                                 <color key="textColor" red="0.066666670143604279" green="0.19607844948768616" blue="0.37254902720451355" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wDA-nD-HTA">
+                                <rect key="frame" x="487" y="286" width="26" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-CondensedMedium" family="Futura" pointSize="20"/>
+                                <color key="textColor" red="0.066666670139999995" green="0.1960784495" blue="0.37254902719999999" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="points" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Tut-z6-Ny3">
-                                <rect key="frame" x="260" y="261" width="48" height="21"/>
+                                <rect key="frame" x="239" y="261" width="48" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-CondensedMedium" family="Futura" pointSize="17"/>
                                 <color key="textColor" red="0.98823535442352295" green="0.30980393290519714" blue="0.17647059261798859" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="04_bonusPoint.png" id="JGV-Lq-TmS">
-                                <rect key="frame" x="439" y="166" width="41" height="49"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="05_bonusIcon.png" highlightedImage="05_bonusIcon.png" id="aEg-ru-qxO">
+                                <rect key="frame" x="457" y="282" width="22" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="04_greenPoint.png" id="ldG-Cv-BYe">
+                                <rect key="frame" x="301" y="288" width="20" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="04_orangePoint.png" id="ssf-2i-E36">
+                                <rect key="frame" x="377" y="288" width="20" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -313,12 +328,36 @@
                         <outlet property="cloudsImg" destination="dvq-e8-DJU" id="joY-XU-m86"/>
                         <outlet property="groundImg" destination="NPK-QJ-5Gs" id="kAq-Rp-SQo"/>
                         <outlet property="groundImg2" destination="3KZ-TP-hVS" id="NVa-4s-X0X"/>
-                        <segue destination="vef-hk-Ug9" kind="modal" id="X0r-6Q-wH5"/>
+                        <segue destination="d4X-Sf-1wf" kind="modal" identifier="stopGame" id="B6h-Yg-XEY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DvQ-Ty-zZy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1533" y="276"/>
+        </scene>
+        <!--Stop Game View Controller-->
+        <scene sceneID="Hsh-gy-WNq">
+            <objects>
+                <viewController id="d4X-Sf-1wf" customClass="stopGameViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ewP-bp-b6d">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="03_loadingDetect.png" id="Obs-Ah-tAT">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <connections>
+                        <segue destination="vef-hk-Ug9" kind="modal" identifier="gotoRewards" id="aSN-XK-YmF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kAx-W8-I4E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2043" y="276"/>
         </scene>
         <!--Reward View Controller-->
         <scene sceneID="mSK-Th-tlr">
@@ -442,7 +481,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9cr-dS-Nld" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2203" y="276"/>
+            <point key="canvasLocation" x="2435" y="276"/>
         </scene>
     </scenes>
     <resources>
@@ -466,6 +505,7 @@
         <image name="04_greenPoint.png" width="19" height="17"/>
         <image name="04_orangePoint.png" width="19" height="17"/>
         <image name="04_resultGame_title.png" width="134" height="36"/>
+        <image name="05_bonusIcon.png" width="22" height="25"/>
         <image name="05_gameBackdrop.png" width="568" height="222"/>
         <image name="05_gameClouds.png" width="482" height="108"/>
         <image name="05_gameGround.png" width="568" height="97"/>

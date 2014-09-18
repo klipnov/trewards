@@ -1,50 +1,38 @@
 //
-//  rewardViewController.m
+//  stopGameViewController.m
 //  tr
 //
 //  Created by Aliff Ali Azizan on 9/18/14.
 //  Copyright (c) 2014 Qays. All rights reserved.
 //
 
-#import "rewardViewController.h"
+#import "stopGameViewController.h"
 
-@interface rewardViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *pointsLabel;
-@property (strong,nonatomic) NSTimer *pointTimer;
-@property int currentPoints;
+@interface stopGameViewController ()
+
 @end
 
-@implementation rewardViewController
+@implementation stopGameViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    _currentPoints = 0;
-    _pointsLabel.text = 0;
-
-    
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    
-    _pointTimer = [NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(animatePoints) userInfo:nil repeats:YES];
-}
+    NSLog(@"ready to give reward");
+    [NSTimer scheduledTimerWithTimeInterval:3.0 target:self selector:@selector(gotoReward) userInfo:nil repeats:NO];
 
-- (void)animatePoints {
-    
-    if (_currentPoints < 300) {
-        _currentPoints++;
-        _pointsLabel.text = [NSString stringWithFormat:@"%d", _currentPoints];
-    } else {
-        [_pointTimer invalidate];
-    }
-    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)gotoReward {
+    [self performSegueWithIdentifier:@"gotoRewards" sender:self];
 }
 
 /*
