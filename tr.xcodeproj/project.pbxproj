@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5429651F19CA1F5B0095F084 /* 03_loadingDetect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5429651E19CA1F5B0095F084 /* 03_loadingDetect@2x.png */; };
+		5429652319CA20190095F084 /* 04_resultGame_title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5429652219CA20190095F084 /* 04_resultGame_title@2x.png */; };
+		5429652819CA216C0095F084 /* 04_greenPoint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5429652519CA216C0095F084 /* 04_greenPoint@2x.png */; };
+		5429652919CA216C0095F084 /* 04_orangePoint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5429652619CA216C0095F084 /* 04_orangePoint@2x.png */; };
+		5429652B19CA220D0095F084 /* 04_bonusPoint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5429652A19CA220D0095F084 /* 04_bonusPoint@2x.png */; };
+		5429652D19CA24B30095F084 /* 04_doneButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5429652C19CA24B30095F084 /* 04_doneButton@2x.png */; };
+		5429652F19CA257B0095F084 /* 02_kgco@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5429652E19CA257B0095F084 /* 02_kgco@2x.png */; };
+		5429653519CA29D80095F084 /* 02_iconEco@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5429653019CA29D80095F084 /* 02_iconEco@2x.png */; };
+		5429653619CA29D80095F084 /* 02_iconRecent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5429653119CA29D80095F084 /* 02_iconRecent@2x.png */; };
+		5429653719CA29D80095F084 /* 02_iconRewards@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5429653219CA29D80095F084 /* 02_iconRewards@2x.png */; };
+		5429653819CA29D80095F084 /* 02_iconTier@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5429653319CA29D80095F084 /* 02_iconTier@2x.png */; };
+		5429653919CA29D80095F084 /* 02_iconTotal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5429653419CA29D80095F084 /* 02_iconTotal@2x.png */; };
+		5429653C19CA3C3A0095F084 /* rewardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5429653B19CA3C3A0095F084 /* rewardViewController.m */; };
+		5429653E19CA3F460095F084 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5429653D19CA3F460095F084 /* CoreMotion.framework */; };
+		5429654119CA3F940095F084 /* initGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5429654019CA3F940095F084 /* initGameViewController.m */; };
+		5450F05519CA514500488EAA /* gameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450F05419CA514500488EAA /* gameViewController.m */; };
+		5450F05B19CA51F700488EAA /* 05_gameBackdrop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5450F05719CA51F700488EAA /* 05_gameBackdrop@2x.png */; };
+		5450F05C19CA51F700488EAA /* 05_gameClouds@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5450F05819CA51F700488EAA /* 05_gameClouds@2x.png */; };
+		5450F05D19CA51F700488EAA /* 05_gameGround@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5450F05919CA51F700488EAA /* 05_gameGround@2x.png */; };
+		5450F05E19CA51F700488EAA /* 05_gameTrain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5450F05A19CA51F700488EAA /* 05_gameTrain@2x.png */; };
 		5462600319C9C96800194B9A /* 02_buttonBegin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54625FFE19C9C96800194B9A /* 02_buttonBegin@2x.png */; };
 		5462600419C9C96800194B9A /* 02_currentStationIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54625FFF19C9C96800194B9A /* 02_currentStationIcon@2x.png */; };
 		5462600519C9C96800194B9A /* 02_fbImageMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5462600019C9C96800194B9A /* 02_fbImageMask@2x.png */; };
@@ -14,6 +34,7 @@
 		5462600719C9C96800194B9A /* 02_rewardsAlert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5462600219C9C96800194B9A /* 02_rewardsAlert@2x.png */; };
 		5462600919C9D49E00194B9A /* 02_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5462600819C9D49E00194B9A /* 02_bg@2x.png */; };
 		5462600C19C9EB0800194B9A /* profileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5462600B19C9EB0800194B9A /* profileViewController.m */; };
+		54990CEC19CA48E7008A26CC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54990CEB19CA48E7008A26CC /* Default-568h@2x.png */; };
 		54ED001619C995FA0095B5F1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ED001519C995FA0095B5F1 /* FacebookSDK.framework */; };
 		54ED001819C996520095B5F1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ED001719C996520095B5F1 /* Parse.framework */; };
 		54ED001D19C9C7A20095B5F1 /* 01_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54ED001B19C9C7A20095B5F1 /* 01_bg@2x.png */; };
@@ -55,6 +76,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5429651E19CA1F5B0095F084 /* 03_loadingDetect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03_loadingDetect@2x.png"; sourceTree = "<group>"; };
+		5429652219CA20190095F084 /* 04_resultGame_title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04_resultGame_title@2x.png"; sourceTree = "<group>"; };
+		5429652519CA216C0095F084 /* 04_greenPoint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04_greenPoint@2x.png"; sourceTree = "<group>"; };
+		5429652619CA216C0095F084 /* 04_orangePoint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04_orangePoint@2x.png"; sourceTree = "<group>"; };
+		5429652A19CA220D0095F084 /* 04_bonusPoint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04_bonusPoint@2x.png"; sourceTree = "<group>"; };
+		5429652C19CA24B30095F084 /* 04_doneButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04_doneButton@2x.png"; sourceTree = "<group>"; };
+		5429652E19CA257B0095F084 /* 02_kgco@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_kgco@2x.png"; sourceTree = "<group>"; };
+		5429653019CA29D80095F084 /* 02_iconEco@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_iconEco@2x.png"; sourceTree = "<group>"; };
+		5429653119CA29D80095F084 /* 02_iconRecent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_iconRecent@2x.png"; sourceTree = "<group>"; };
+		5429653219CA29D80095F084 /* 02_iconRewards@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_iconRewards@2x.png"; sourceTree = "<group>"; };
+		5429653319CA29D80095F084 /* 02_iconTier@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_iconTier@2x.png"; sourceTree = "<group>"; };
+		5429653419CA29D80095F084 /* 02_iconTotal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_iconTotal@2x.png"; sourceTree = "<group>"; };
+		5429653A19CA3C3A0095F084 /* rewardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rewardViewController.h; sourceTree = "<group>"; };
+		5429653B19CA3C3A0095F084 /* rewardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rewardViewController.m; sourceTree = "<group>"; };
+		5429653D19CA3F460095F084 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		5429653F19CA3F940095F084 /* initGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = initGameViewController.h; sourceTree = "<group>"; };
+		5429654019CA3F940095F084 /* initGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = initGameViewController.m; sourceTree = "<group>"; };
+		5450F05319CA514500488EAA /* gameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameViewController.h; sourceTree = "<group>"; };
+		5450F05419CA514500488EAA /* gameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gameViewController.m; sourceTree = "<group>"; };
+		5450F05719CA51F700488EAA /* 05_gameBackdrop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "05_gameBackdrop@2x.png"; sourceTree = "<group>"; };
+		5450F05819CA51F700488EAA /* 05_gameClouds@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "05_gameClouds@2x.png"; sourceTree = "<group>"; };
+		5450F05919CA51F700488EAA /* 05_gameGround@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "05_gameGround@2x.png"; sourceTree = "<group>"; };
+		5450F05A19CA51F700488EAA /* 05_gameTrain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "05_gameTrain@2x.png"; sourceTree = "<group>"; };
 		54625FFE19C9C96800194B9A /* 02_buttonBegin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_buttonBegin@2x.png"; sourceTree = "<group>"; };
 		54625FFF19C9C96800194B9A /* 02_currentStationIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_currentStationIcon@2x.png"; sourceTree = "<group>"; };
 		5462600019C9C96800194B9A /* 02_fbImageMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_fbImageMask@2x.png"; sourceTree = "<group>"; };
@@ -63,6 +107,7 @@
 		5462600819C9D49E00194B9A /* 02_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02_bg@2x.png"; sourceTree = "<group>"; };
 		5462600A19C9EB0800194B9A /* profileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profileViewController.h; sourceTree = "<group>"; };
 		5462600B19C9EB0800194B9A /* profileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = profileViewController.m; sourceTree = "<group>"; };
+		54990CEB19CA48E7008A26CC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		54ED001519C995FA0095B5F1 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		54ED001719C996520095B5F1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		54ED001B19C9C7A20095B5F1 /* 01_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_bg@2x.png"; sourceTree = "<group>"; };
@@ -123,6 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5429653E19CA3F460095F084 /* CoreMotion.framework in Frameworks */,
 				54ED001819C996520095B5F1 /* Parse.framework in Frameworks */,
 				54ED001619C995FA0095B5F1 /* FacebookSDK.framework in Frameworks */,
 			);
@@ -138,9 +184,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5450F05619CA51DF00488EAA /* gamePage */ = {
+			isa = PBXGroup;
+			children = (
+				5450F05719CA51F700488EAA /* 05_gameBackdrop@2x.png */,
+				5450F05819CA51F700488EAA /* 05_gameClouds@2x.png */,
+				5450F05919CA51F700488EAA /* 05_gameGround@2x.png */,
+				5450F05A19CA51F700488EAA /* 05_gameTrain@2x.png */,
+			);
+			name = gamePage;
+			sourceTree = "<group>";
+		};
 		54625FFD19C9C92400194B9A /* ProfilePage */ = {
 			isa = PBXGroup;
 			children = (
+				5429653019CA29D80095F084 /* 02_iconEco@2x.png */,
+				5429653119CA29D80095F084 /* 02_iconRecent@2x.png */,
+				5429653219CA29D80095F084 /* 02_iconRewards@2x.png */,
+				5429653319CA29D80095F084 /* 02_iconTier@2x.png */,
+				5429653419CA29D80095F084 /* 02_iconTotal@2x.png */,
+				5429652E19CA257B0095F084 /* 02_kgco@2x.png */,
 				54625FFE19C9C96800194B9A /* 02_buttonBegin@2x.png */,
 				54625FFF19C9C96800194B9A /* 02_currentStationIcon@2x.png */,
 				5462600019C9C96800194B9A /* 02_fbImageMask@2x.png */,
@@ -154,6 +217,7 @@
 		54ED001419C995D30095B5F1 /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5429653D19CA3F460095F084 /* CoreMotion.framework */,
 				7984BF9B19C9FA6800A4CFA4 /* UIKit+AFNetworking */,
 				7984BF7E19C9FA2800A4CFA4 /* AFNetworking */,
 				54ED001719C996520095B5F1 /* Parse.framework */,
@@ -166,6 +230,13 @@
 		54ED001919C9C7580095B5F1 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				5450F05619CA51DF00488EAA /* gamePage */,
+				5429652C19CA24B30095F084 /* 04_doneButton@2x.png */,
+				5429652A19CA220D0095F084 /* 04_bonusPoint@2x.png */,
+				5429652519CA216C0095F084 /* 04_greenPoint@2x.png */,
+				5429652619CA216C0095F084 /* 04_orangePoint@2x.png */,
+				5429652219CA20190095F084 /* 04_resultGame_title@2x.png */,
+				5429651E19CA1F5B0095F084 /* 03_loadingDetect@2x.png */,
 				54625FFD19C9C92400194B9A /* ProfilePage */,
 				54ED001A19C9C7800095B5F1 /* LoginPage */,
 			);
@@ -185,6 +256,7 @@
 		7984BF4C19C9714B00A4CFA4 = {
 			isa = PBXGroup;
 			children = (
+				54990CEB19CA48E7008A26CC /* Default-568h@2x.png */,
 				7984BF5719C9714B00A4CFA4 /* tr */,
 				7984BF7119C9714B00A4CFA4 /* trTests */,
 				7984BF5619C9714B00A4CFA4 /* Products */,
@@ -213,6 +285,12 @@
 				7984BF6719C9714B00A4CFA4 /* LaunchScreen.xib */,
 				5462600A19C9EB0800194B9A /* profileViewController.h */,
 				5462600B19C9EB0800194B9A /* profileViewController.m */,
+				5429653A19CA3C3A0095F084 /* rewardViewController.h */,
+				5429653B19CA3C3A0095F084 /* rewardViewController.m */,
+				5429653F19CA3F940095F084 /* initGameViewController.h */,
+				5429654019CA3F940095F084 /* initGameViewController.m */,
+				5450F05319CA514500488EAA /* gameViewController.h */,
+				5450F05419CA514500488EAA /* gameViewController.m */,
 				54ED001919C9C7580095B5F1 /* images */,
 				7984BF5819C9714B00A4CFA4 /* Supporting Files */,
 			);
@@ -376,17 +454,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5429652319CA20190095F084 /* 04_resultGame_title@2x.png in Resources */,
 				54ED001E19C9C7A20095B5F1 /* 01_loginButton@2x.png in Resources */,
+				5450F05B19CA51F700488EAA /* 05_gameBackdrop@2x.png in Resources */,
+				5450F05C19CA51F700488EAA /* 05_gameClouds@2x.png in Resources */,
+				5429651F19CA1F5B0095F084 /* 03_loadingDetect@2x.png in Resources */,
 				7984BF6419C9714B00A4CFA4 /* Main.storyboard in Resources */,
+				5450F05D19CA51F700488EAA /* 05_gameGround@2x.png in Resources */,
+				5429652F19CA257B0095F084 /* 02_kgco@2x.png in Resources */,
+				54990CEC19CA48E7008A26CC /* Default-568h@2x.png in Resources */,
 				5462600519C9C96800194B9A /* 02_fbImageMask@2x.png in Resources */,
+				5429652B19CA220D0095F084 /* 04_bonusPoint@2x.png in Resources */,
 				5462600319C9C96800194B9A /* 02_buttonBegin@2x.png in Resources */,
 				5462600719C9C96800194B9A /* 02_rewardsAlert@2x.png in Resources */,
+				5429652D19CA24B30095F084 /* 04_doneButton@2x.png in Resources */,
+				5429653919CA29D80095F084 /* 02_iconTotal@2x.png in Resources */,
 				7984BF6919C9714B00A4CFA4 /* LaunchScreen.xib in Resources */,
 				5462600419C9C96800194B9A /* 02_currentStationIcon@2x.png in Resources */,
 				54ED001D19C9C7A20095B5F1 /* 01_bg@2x.png in Resources */,
+				5429653819CA29D80095F084 /* 02_iconTier@2x.png in Resources */,
+				5429652919CA216C0095F084 /* 04_orangePoint@2x.png in Resources */,
 				5462600919C9D49E00194B9A /* 02_bg@2x.png in Resources */,
 				5462600619C9C96800194B9A /* 02_navBarTitle@2x.png in Resources */,
+				5429653619CA29D80095F084 /* 02_iconRecent@2x.png in Resources */,
 				7984BF6619C9714B00A4CFA4 /* Images.xcassets in Resources */,
+				5450F05E19CA51F700488EAA /* 05_gameTrain@2x.png in Resources */,
+				5429652819CA216C0095F084 /* 04_greenPoint@2x.png in Resources */,
+				5429653519CA29D80095F084 /* 02_iconEco@2x.png in Resources */,
+				5429653719CA29D80095F084 /* 02_iconRewards@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +502,7 @@
 				7984BFB219C9FA6800A4CFA4 /* UIProgressView+AFNetworking.m in Sources */,
 				7984BFB019C9FA6800A4CFA4 /* UIButton+AFNetworking.m in Sources */,
 				7984BFB319C9FA6800A4CFA4 /* UIRefreshControl+AFNetworking.m in Sources */,
+				5429653C19CA3C3A0095F084 /* rewardViewController.m in Sources */,
 				7984BFAF19C9FA6800A4CFA4 /* UIAlertView+AFNetworking.m in Sources */,
 				7984BF6119C9714B00A4CFA4 /* ViewController.m in Sources */,
 				7984BF9619C9FA2800A4CFA4 /* AFSecurityPolicy.m in Sources */,
@@ -416,8 +512,10 @@
 				7984BFB119C9FA6800A4CFA4 /* UIImageView+AFNetworking.m in Sources */,
 				7984BF9219C9FA2800A4CFA4 /* AFHTTPRequestOperation.m in Sources */,
 				7984BFAE19C9FA6800A4CFA4 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				5429654119CA3F940095F084 /* initGameViewController.m in Sources */,
 				5462600C19C9EB0800194B9A /* profileViewController.m in Sources */,
 				7984BF9819C9FA2800A4CFA4 /* AFURLRequestSerialization.m in Sources */,
+				5450F05519CA514500488EAA /* gameViewController.m in Sources */,
 				7984BF9419C9FA2800A4CFA4 /* AFHTTPSessionManager.m in Sources */,
 				7984BF9519C9FA2800A4CFA4 /* AFNetworkReachabilityManager.m in Sources */,
 				7984BF9919C9FA2800A4CFA4 /* AFURLResponseSerialization.m in Sources */,

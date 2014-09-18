@@ -70,7 +70,7 @@
   sourceApplication:(NSString *)sourceApplication
          annotation:(id)annotation
 {
-    NSLog(@"calledafterlogin");
+    //NSLog(@"calledafterlogin");
     return [FBAppCall handleOpenURL:url sourceApplication:sourceApplication];
 }
 

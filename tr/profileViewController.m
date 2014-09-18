@@ -45,7 +45,7 @@
     // Do any additional setup after loading the view.
     
     [FBRequestConnection startWithGraphPath:@"me" parameters:[NSMutableDictionary  dictionaryWithObjectsAndKeys:@"name,picture",@"fields", nil] HTTPMethod:@"GET" completionHandler:^(FBRequestConnection *connection, id result, NSError *error) {
-        NSLog(@"%@",result);
+        //NSLog(@"%@",result);
         NSDictionary *dictionary = result;
         NSString *name = [[dictionary objectForKey:@"name"] uppercaseString];
         _username.text = name;
@@ -78,7 +78,7 @@
 - (void)addNumbersToPoint {
     
     if (_currentPoint < 1324) {
-        _currentPoint++;
+        _currentPoint = _currentPoint + 9;
         _pointLabel.text = [NSString stringWithFormat:@"%d",_currentPoint];
     } else {
         [_pointTimer invalidate];
@@ -94,7 +94,7 @@
 - (void)addNumbersToTotal {
     
     if (_currentTotal < 135600) {
-        _currentTotal = _currentTotal + 51;
+        _currentTotal = _currentTotal + 371;
         _totalLabel.text = [NSString stringWithFormat:@"%d",_currentTotal];
     } else {
         [_totalTimer invalidate];
