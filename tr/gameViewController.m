@@ -10,6 +10,7 @@
 
 @interface gameViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *cloudsImg;
+@property (weak, nonatomic) IBOutlet UIImageView *groundImg;
 
 @end
 
@@ -19,9 +20,24 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [UIView animateWithDuration:10.0 animations:^{
-        _cloudsImg.transform = CGAffineTransformMakeTranslation(-900, 0);
+
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    [UIView animateWithDuration:30.0 animations:^{
+        _cloudsImg.transform = CGAffineTransformMakeTranslation(-300, 0);
+    } completion:^(BOOL finished) {
+        NSLog(@"done anim ?:%hhd", finished);
     }];
+    
+    [UIView animateWithDuration:10.0 animations:^{
+        _groundImg.transform = CGAffineTransformMakeTranslation(-400, 0);
+    } completion:^(BOOL finished) {
+        _groundImg.frame = CGRectMake(0, 0, 568, 97);
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning {
