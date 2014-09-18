@@ -49,11 +49,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    [[UIDevice currentDevice] setValue:[NSNumber numberWithInteger:UIInterfaceOrientationLandscapeLeft] forKey:@"orientation"];
 
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
+    
+    
     
     [UIView animateWithDuration:20.0 animations:^{
         _cloudsImg.transform = CGAffineTransformMakeTranslation(-300, 0);
