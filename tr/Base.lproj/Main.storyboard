@@ -222,6 +222,20 @@
             </objects>
             <point key="canvasLocation" x="605" y="267"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="4Mq-Nt-NOh">
+            <objects>
+                <viewController id="987-Ee-dMt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rxA-E5-47L">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Bc-Hx-qeV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="605" y="900"/>
+        </scene>
         <!--Init Game View Controller-->
         <scene sceneID="HzG-EG-afw">
             <objects>
@@ -273,13 +287,6 @@
                                 <rect key="frame" x="0.0" y="147" width="102" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qiB-CM-cyE">
-                                <rect key="frame" x="239" y="286" width="38" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-CondensedMedium" family="Futura" pointSize="30"/>
-                                <color key="textColor" red="0.066666670143604279" green="0.19607844948768616" blue="0.37254902720451355" alpha="1" colorSpace="deviceRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZhH-c2-RQK">
                                 <rect key="frame" x="330" y="286" width="20" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -320,14 +327,25 @@
                                 <rect key="frame" x="377" y="288" width="20" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qiB-CM-cyE">
+                                <rect key="frame" x="239" y="286" width="38" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-CondensedMedium" family="Futura" pointSize="30"/>
+                                <color key="textColor" red="0.066666670143604279" green="0.19607844948768616" blue="0.37254902720451355" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="cloudsImg" destination="dvq-e8-DJU" id="joY-XU-m86"/>
+                        <outlet property="greenPoint" destination="ZhH-c2-RQK" id="eJq-Md-53n"/>
                         <outlet property="groundImg" destination="NPK-QJ-5Gs" id="kAq-Rp-SQo"/>
                         <outlet property="groundImg2" destination="3KZ-TP-hVS" id="NVa-4s-X0X"/>
+                        <outlet property="points" destination="qiB-CM-cyE" id="EG9-F8-TT7"/>
+                        <outlet property="redPoints" destination="d5B-Fp-WK6" id="dBa-XN-ris"/>
+                        <outlet property="rewardPoints" destination="wDA-nD-HTA" id="tdt-JQ-95E"/>
                         <segue destination="d4X-Sf-1wf" kind="modal" identifier="stopGame" id="B6h-Yg-XEY"/>
                     </connections>
                 </viewController>
@@ -464,10 +482,16 @@
                                         <color key="textColor" red="0.93331626710000004" green="0.9284717817" blue="0.972497642" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="04_doneButton.png" id="YVC-je-G4e">
-                                        <rect key="frame" x="18" y="493" width="285" height="46"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="rtC-8v-Z12">
+                                        <rect key="frame" x="-10" y="510" width="340" height="46"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
+                                        <state key="normal" image="04_doneButton.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="JJj-ad-3ml" kind="unwind" unwindAction="unwindToProfile:" id="YZz-On-hr0"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.12549020349979401" green="0.61568629741668701" blue="0.67843139171600342" alpha="1" colorSpace="deviceRGB"/>
                             </view>
@@ -476,10 +500,14 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
+                        <outlet property="greenPoint" destination="w9v-HN-8XQ" id="ah0-SV-4yC"/>
                         <outlet property="pointsLabel" destination="Xls-22-3ky" id="8bZ-Gr-GBg"/>
+                        <outlet property="redPoint" destination="cms-rV-hfN" id="MPO-ld-aQ5"/>
+                        <outlet property="rewardPoint" destination="xha-RZ-Cjd" id="bdB-xZ-RNZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9cr-dS-Nld" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="JJj-ad-3ml" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2435" y="276"/>
         </scene>

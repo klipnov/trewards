@@ -10,8 +10,16 @@
 
 @interface rewardViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *pointsLabel;
+@property (weak, nonatomic) IBOutlet UILabel *greenPoint;
+@property (weak, nonatomic) IBOutlet UILabel *redPoint;
+@property (weak, nonatomic) IBOutlet UILabel *rewardPoint;
+
 @property (strong,nonatomic) NSTimer *pointTimer;
 @property int currentPoints;
+@property int currentRedPoint;
+@property int currentGreenPoint;
+@property int currentRewardPoint;
+
 @end
 
 @implementation rewardViewController
@@ -21,8 +29,16 @@
     // Do any additional setup after loading the view.
     _currentPoints = 0;
     _pointsLabel.text = 0;
-
     
+    _currentRedPoint = 0;
+    _currentGreenPoint = 0;
+    _currentRewardPoint = 0;
+    
+    _greenPoint.text = 0;
+    _redPoint.text = 0;
+    _rewardPoint.text = 0;
+    
+
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -38,6 +54,21 @@
         _pointsLabel.text = [NSString stringWithFormat:@"%d", _currentPoints];
     } else {
         [_pointTimer invalidate];
+    }
+    
+    if (_currentRedPoint < 13) {
+        _currentRedPoint++;
+        _redPoint.text = [NSString stringWithFormat:@"%d", _currentRedPoint];
+    }
+    
+    if (_currentGreenPoint <25) {
+        _currentGreenPoint++;
+        _greenPoint.text = [NSString stringWithFormat:@"%d", _currentGreenPoint];
+    }
+    
+    if (_currentRewardPoint <3) {
+        _currentRewardPoint++;
+        _rewardPoint.text = [NSString stringWithFormat:@"%d", _currentRewardPoint];
     }
     
 }

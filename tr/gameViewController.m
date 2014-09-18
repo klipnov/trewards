@@ -23,7 +23,15 @@
 @property (strong,nonatomic) UIButton *touchable7;
 @property (strong,nonatomic) UIButton *touchable8;
 
+@property (weak, nonatomic) IBOutlet UILabel *points;
+@property (weak, nonatomic) IBOutlet UILabel *greenPoint;
+@property (weak, nonatomic) IBOutlet UILabel *redPoints;
+@property (weak, nonatomic) IBOutlet UILabel *rewardPoints;
 
+@property int currentPoints;
+@property int currentGreenPoint;
+@property int currentRedPoints;
+@property int currentRewardPoint;
 
 @end
 
@@ -49,7 +57,72 @@
     
     [self initTouchables];
     
+    _currentGreenPoint = 0;
+    _currentPoints = 0;
+    _currentRedPoints = 0;
+    _currentRewardPoint = 0;
+    
+    _points.text = @"0";
+    _greenPoint.text = @"0";
+    _redPoints.text = @"0";
+    _rewardPoints.text = @"0";
+    
+    [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(addPointsToGame) userInfo:nil repeats:YES];
+    
+    [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(addPointsToGreen) userInfo:nil repeats:YES];
+    
+    [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(addPointsToRed) userInfo:nil repeats:YES];
+    
+    [NSTimer scheduledTimerWithTimeInterval:3.5 target:self selector:@selector(addPointsToReward) userInfo:nil repeats:YES];
+    
 }
+
+- (void)addPointsToGame {
+    
+    if (_currentPoints < 100) {
+        _currentPoints++;
+        _points.text = [NSString stringWithFormat:@"%d",_currentPoints];
+    }
+    
+    /*if (_currentGreenPoint < 9) {
+        _currentGreenPoint++;
+        _greenPoint.text = [NSString stringWithFormat:@"%d", _currentGreenPoint];
+        
+    }
+    
+    if (_currentRedPoints < 12) {
+        _currentRedPoints++;
+        _redPoints.text = [NSString stringWithFormat:@"%d", _currentRedPoints];
+        
+    }*/
+    
+}
+
+- (void)addPointsToRed {
+    if (_currentRedPoints < 12) {
+        _currentRedPoints++;
+        _redPoints.text = [NSString stringWithFormat:@"%d", _currentRedPoints];
+        
+    }
+}
+
+- (void)addPointsToGreen {
+    if (_currentGreenPoint < 9) {
+        _currentGreenPoint++;
+        _greenPoint.text = [NSString stringWithFormat:@"%d", _currentGreenPoint];
+        
+    }
+}
+
+- (void)addPointsToReward {
+    if (_currentRewardPoint < 10) {
+        _currentRewardPoint++;
+        _rewardPoints.text = [NSString stringWithFormat:@"%d", _currentRewardPoint];
+        
+    }
+}
+
+
 
 - (void)animateGround {
    /* [UIView animateWithDuration:3.0 animations:^{
