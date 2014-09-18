@@ -41,6 +41,8 @@
 		54ED001819C996520095B5F1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ED001719C996520095B5F1 /* Parse.framework */; };
 		54ED001D19C9C7A20095B5F1 /* 01_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54ED001B19C9C7A20095B5F1 /* 01_bg@2x.png */; };
 		54ED001E19C9C7A20095B5F1 /* 01_loginButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54ED001C19C9C7A20095B5F1 /* 01_loginButton@2x.png */; };
+		54EDB38319CA9D76000DAC60 /* 06_backButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EDB38119CA9D76000DAC60 /* 06_backButton@2x.png */; };
+		54EDB38419CA9D76000DAC60 /* 06_rewardBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EDB38219CA9D76000DAC60 /* 06_rewardBg@2x.png */; };
 		7984BF5B19C9714B00A4CFA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7984BF5A19C9714B00A4CFA4 /* main.m */; };
 		7984BF5E19C9714B00A4CFA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7984BF5D19C9714B00A4CFA4 /* AppDelegate.m */; };
 		7984BF6119C9714B00A4CFA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7984BF6019C9714B00A4CFA4 /* ViewController.m */; };
@@ -117,6 +119,8 @@
 		54ED001719C996520095B5F1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		54ED001B19C9C7A20095B5F1 /* 01_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_bg@2x.png"; sourceTree = "<group>"; };
 		54ED001C19C9C7A20095B5F1 /* 01_loginButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_loginButton@2x.png"; sourceTree = "<group>"; };
+		54EDB38119CA9D76000DAC60 /* 06_backButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06_backButton@2x.png"; sourceTree = "<group>"; };
+		54EDB38219CA9D76000DAC60 /* 06_rewardBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06_rewardBg@2x.png"; sourceTree = "<group>"; };
 		7984BF5519C9714B00A4CFA4 /* tr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7984BF5919C9714B00A4CFA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7984BF5A19C9714B00A4CFA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -192,6 +196,8 @@
 		5450F05619CA51DF00488EAA /* gamePage */ = {
 			isa = PBXGroup;
 			children = (
+				54EDB38119CA9D76000DAC60 /* 06_backButton@2x.png */,
+				54EDB38219CA9D76000DAC60 /* 06_rewardBg@2x.png */,
 				5450F05F19CA82DB00488EAA /* 05_bonusIcon@2x.png */,
 				5450F05719CA51F700488EAA /* 05_gameBackdrop@2x.png */,
 				5450F05819CA51F700488EAA /* 05_gameClouds@2x.png */,
@@ -478,11 +484,13 @@
 				5429652D19CA24B30095F084 /* 04_doneButton@2x.png in Resources */,
 				5429653919CA29D80095F084 /* 02_iconTotal@2x.png in Resources */,
 				7984BF6919C9714B00A4CFA4 /* LaunchScreen.xib in Resources */,
+				54EDB38419CA9D76000DAC60 /* 06_rewardBg@2x.png in Resources */,
 				5450F06019CA82DB00488EAA /* 05_bonusIcon@2x.png in Resources */,
 				5462600419C9C96800194B9A /* 02_currentStationIcon@2x.png in Resources */,
 				54ED001D19C9C7A20095B5F1 /* 01_bg@2x.png in Resources */,
 				5429653819CA29D80095F084 /* 02_iconTier@2x.png in Resources */,
 				5429652919CA216C0095F084 /* 04_orangePoint@2x.png in Resources */,
+				54EDB38319CA9D76000DAC60 /* 06_backButton@2x.png in Resources */,
 				5462600919C9D49E00194B9A /* 02_bg@2x.png in Resources */,
 				5462600619C9C96800194B9A /* 02_navBarTitle@2x.png in Resources */,
 				5429653619CA29D80095F084 /* 02_iconRecent@2x.png in Resources */,
