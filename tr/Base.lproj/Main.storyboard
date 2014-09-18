@@ -369,6 +369,7 @@
                         <outlet property="points" destination="qiB-CM-cyE" id="EG9-F8-TT7"/>
                         <outlet property="redPoints" destination="d5B-Fp-WK6" id="dBa-XN-ris"/>
                         <outlet property="rewardPoints" destination="wDA-nD-HTA" id="tdt-JQ-95E"/>
+                        <outlet property="trainImg" destination="xcH-el-iwu" id="Bqi-8M-DAe"/>
                         <segue destination="d4X-Sf-1wf" kind="modal" identifier="stopGame" id="B6h-Yg-XEY"/>
                     </connections>
                 </viewController>

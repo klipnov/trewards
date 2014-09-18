@@ -12,6 +12,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *cloudsImg;
 @property (weak, nonatomic) IBOutlet UIImageView *groundImg;
 @property (weak, nonatomic) IBOutlet UIImageView *groundImg2;
+@property (weak, nonatomic) IBOutlet UIImageView *trainImg;
 
 @property (strong,nonatomic) NSTimer *buttonTimer;
 @property (strong,nonatomic) UIButton *touchable;
@@ -22,6 +23,13 @@
 @property (strong,nonatomic) UIButton *touchable6;
 @property (strong,nonatomic) UIButton *touchable7;
 @property (strong,nonatomic) UIButton *touchable8;
+
+@property (strong,nonatomic) UIButton *touchable9;
+@property (strong,nonatomic) UIButton *touchable10;
+@property (strong,nonatomic) UIButton *touchable11;
+@property (strong,nonatomic) UIButton *touchable12;
+@property (strong,nonatomic) UIButton *touchable13;
+@property (strong,nonatomic) UIButton *touchable14;
 
 @property (weak, nonatomic) IBOutlet UILabel *points;
 @property (weak, nonatomic) IBOutlet UILabel *greenPoint;
@@ -53,6 +61,12 @@
         [self performSegueWithIdentifier:@"stopGame" sender:self];
     }];
     
+    [UIView animateWithDuration:0.3 delay:0.5 options:UIViewAnimationOptionCurveLinear | UIViewAnimationOptionAutoreverse | UIViewAnimationOptionRepeat animations:^{
+        _trainImg.transform = CGAffineTransformMakeTranslation(0, 3);
+    } completion:^(BOOL finished) {
+        
+    }];
+    
     [self animateGround];
     
     [self initTouchables];
@@ -79,7 +93,7 @@
 
 - (void)addPointsToGame {
     
-    if (_currentPoints < 100) {
+    if (_currentPoints < 300) {
         _currentPoints++;
         _points.text = [NSString stringWithFormat:@"%d",_currentPoints];
     }
@@ -156,7 +170,7 @@
     
     _touchable2 = [UIButton buttonWithType:UIButtonTypeCustom];
     [_touchable2 setFrame:CGRectMake(1000, 90, 29, 27)];
-    [_touchable2 setImage:[UIImage imageNamed:@"04_orangePoint@2x.png"] forState:UIControlStateNormal];
+    [_touchable2 setImage:[UIImage imageNamed:@"02_iconRewards@2x.png"] forState:UIControlStateNormal];
     [_touchable2 addTarget:self action:@selector(touchablesTouched) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_touchable2];
     
@@ -174,7 +188,7 @@
     
     _touchable5 = [UIButton buttonWithType:UIButtonTypeCustom];
     [_touchable5 setFrame:CGRectMake(2800, 70, 29, 27)];
-    [_touchable5 setImage:[UIImage imageNamed:@"04_orangePoint@2x.png"] forState:UIControlStateNormal];
+    [_touchable5 setImage:[UIImage imageNamed:@"02_iconRewards@2x.png"] forState:UIControlStateNormal];
     [_touchable5 addTarget:self action:@selector(touchablesTouched) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_touchable5];
     
@@ -196,11 +210,47 @@
     [_touchable8 addTarget:self action:@selector(touchablesTouched) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_touchable8];
     
+    _touchable9 = [UIButton buttonWithType:UIButtonTypeCustom];
+    [_touchable9 setFrame:CGRectMake(4200, 80, 29, 27)];
+    [_touchable9 setImage:[UIImage imageNamed:@"04_orangePoint@2x.png"] forState:UIControlStateNormal];
+    [_touchable9 addTarget:self action:@selector(touchablesTouched) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_touchable9];
+    
+    _touchable10 = [UIButton buttonWithType:UIButtonTypeCustom];
+    [_touchable10 setFrame:CGRectMake(3200, 70, 29, 27)];
+    [_touchable10 setImage:[UIImage imageNamed:@"04_orangePoint@2x.png"] forState:UIControlStateNormal];
+    [_touchable10 addTarget:self action:@selector(touchablesTouched) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_touchable10];
+    
+    _touchable11 = [UIButton buttonWithType:UIButtonTypeCustom];
+    [_touchable11 setFrame:CGRectMake(1200, 60, 29, 27)];
+    [_touchable11 setImage:[UIImage imageNamed:@"02_iconRewards@2x.png"] forState:UIControlStateNormal];
+    [_touchable11 addTarget:self action:@selector(touchablesTouched) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_touchable11];
+    
+    _touchable12 = [UIButton buttonWithType:UIButtonTypeCustom];
+    [_touchable12 setFrame:CGRectMake(5200, 30, 29, 27)];
+    [_touchable12 setImage:[UIImage imageNamed:@"04_orangePoint@2x.png"] forState:UIControlStateNormal];
+    [_touchable12 addTarget:self action:@selector(touchablesTouched) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_touchable12];
+    
+    _touchable13 = [UIButton buttonWithType:UIButtonTypeCustom];
+    [_touchable13 setFrame:CGRectMake(3600, 40, 29, 27)];
+    [_touchable13 setImage:[UIImage imageNamed:@"04_orangePoint@2x.png"] forState:UIControlStateNormal];
+    [_touchable13 addTarget:self action:@selector(touchablesTouched) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_touchable13];
+    
+    _touchable14 = [UIButton buttonWithType:UIButtonTypeCustom];
+    [_touchable14 setFrame:CGRectMake(5300, 50, 29, 27)];
+    [_touchable14 setImage:[UIImage imageNamed:@"02_iconRewards@2x.png"] forState:UIControlStateNormal];
+    [_touchable14 addTarget:self action:@selector(touchablesTouched) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_touchable14];
+    
     /*[UIView animateWithDuration:3.0 animations:^{
         touchable.transform = CGAffineTransformMakeTranslation(-600, 30);
     }];*/
     
-    [UIView animateWithDuration:8.0 delay:0.0 options:UIViewAnimationOptionCurveLinear | UIViewAnimationOptionAllowUserInteraction animations:^{
+    [UIView animateWithDuration:18.0 delay:0.0 options:UIViewAnimationOptionCurveLinear | UIViewAnimationOptionAllowUserInteraction animations:^{
         _touchable.transform = CGAffineTransformMakeTranslation(-850, 30);
         _touchable2.transform = CGAffineTransformMakeTranslation(-1650, 40);
         _touchable3.transform = CGAffineTransformMakeTranslation(-1950, 50);
@@ -209,6 +259,12 @@
         _touchable6.transform = CGAffineTransformMakeTranslation(-3850, 30);
         _touchable7.transform = CGAffineTransformMakeTranslation(-4650, 50);
         _touchable8.transform = CGAffineTransformMakeTranslation(-4250, 70);
+        _touchable9.transform = CGAffineTransformMakeTranslation(-4250, 70);
+        _touchable10.transform = CGAffineTransformMakeTranslation(-4250, 70);
+        _touchable11.transform = CGAffineTransformMakeTranslation(-4250, 70);
+        _touchable12.transform = CGAffineTransformMakeTranslation(-4250, 70);
+        _touchable13.transform = CGAffineTransformMakeTranslation(-4250, 70);
+        _touchable14.transform = CGAffineTransformMakeTranslation(-4250, 70);
     } completion:nil];
     
     /*_buttonTimer = [NSTimer scheduledTimerWithTimeInterval:4.0 target:self selector:@selector(moveTouchable) userInfo:nil repeats:YES];*/
